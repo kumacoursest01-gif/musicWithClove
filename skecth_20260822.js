@@ -185,7 +185,13 @@ function mousePressed() {
 
 }
 function touchStarted() {
+    
+    let musicUI = document.getElementById("musicUI");
 
+    // MUSIC UIをタップした場合
+    if (musicUI && musicUI.contains(document.elementFromPoint(mouseX, mouseY))) {
+        return true;
+    }
     createStarEffect(mouseX,mouseY);
 
     return false;

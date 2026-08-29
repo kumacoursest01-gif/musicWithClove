@@ -6,8 +6,8 @@ let bgSP
 let bgImg
 
 function preload(){
- bgPC = loadImage("img/pc_bg.jpg");
- bgSP = loadImage("img/sp_bg.jpg");
+ bgPC = loadImage("../img/pc_bg.jpg");
+ bgSP = loadImage("../img/sp_bg.jpg");
 }
 
 let song;
